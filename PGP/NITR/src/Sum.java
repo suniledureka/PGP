@@ -1,8 +1,8 @@
-import java.util.Scanner;
+
 public class Sum {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		java.util.Scanner sc = new java.util.Scanner(System.in);
 		
 		System.out.print("enter first no: ");
 		int x = sc.nextInt();
@@ -13,8 +13,6 @@ public class Sum {
 		int s = x+y;
 		
 		System.out.println("Sum = " + s);
-		System.out.println(x+" + "+y+" = "+s);
-		
-		sc.close();
+		System.out.println(x + " + " + y + " = " + s);
 	}
 }

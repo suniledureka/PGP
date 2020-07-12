@@ -1,8 +1,8 @@
 
-public class MultidimensionalArray {
+public class ArrayInitialization_1 {
 
 	public static void main(String[] args) {
-		int[][] n = new int[5][4];
+		int[][] n = {{1,2,3},{4,5},{6,7,8,9}};
 		
 		System.out.println("Size of Array = "+ n.length);
 		
@@ -19,5 +19,7 @@ public class MultidimensionalArray {
 			}//for
 			System.out.println();
 		}//for
+
 	}
+
 }

@@ -6,7 +6,7 @@ public class SwitchTest {
 		switch(n)
 		{
 		  case 0:
-		    System.out.println("A");
+		    System.out.println("A");  
 		    break;
 		  case 1:
 		    System.out.println("B");
@@ -16,6 +16,7 @@ public class SwitchTest {
 		    break;
 		  default:
 		    System.out.println("D");
-		}
+		}//switch
 	}
+
 }
