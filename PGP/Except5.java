@@ -14,6 +14,14 @@ class Except5
 		   System.out.println("Message : "+ ex.getMessage());
 		   System.out.println("toString() : "+ ex.toString()); //object type + message
 		   ex.printStackTrace(); //toString()+ callstack
+		   System.out.println("-----------------------------------");
+
+		   if(ex instanceof NumberFormatException){
+			   String msg = ex.getMessage();
+			   int colon_index = msg.indexOf(":");
+			   msg = msg.substring(colon_index+1);
+			   System.out.println("Invalid Input : "+msg);
+		   }
 	   }
 
 	   System.out.println("-- DONE --");
