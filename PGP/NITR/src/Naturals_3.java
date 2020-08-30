@@ -1,23 +1,28 @@
 
-public class Naturals_3 {
-
-	public static void main(String[] args) {		
-		printNaturals();
-		System.out.println("\n-----------------------");
-		printNaturals();
-	} //main
-	
+public class Naturals_3 
+{
+	/*method definition to display 10 Natural numbers*/
 	static void printNaturals()
 	{
 		System.out.println("First 10 Natural Numbers are:");
-		
-		int n = 1;
-		
-		while(n < 11)
-		{			
-			System.out.print((n==10)?n:n+", ");			
-			n = n+1;
-		}
-	}//printNaturals	 
+		int n =1;
+		while(n<11)
+		{
+ 		  if(n==10)
+ 			  System.out.println(n);
+ 		  else
+ 			  System.out.print(n+", ");
+ 		  
+		  n++;
+		}		
+	} //printNaturals
+	
+	public static void main(String[] args) 
+	{
+		printNaturals(); //method call
+		printNaturals();
+		printNaturals();
+	}//main
+	
 
 }

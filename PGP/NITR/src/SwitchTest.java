@@ -5,18 +5,19 @@ public class SwitchTest {
 		int n = 1;
 		switch(n)
 		{
-		  case 0:
-		    System.out.println("A");  
+		  case 0: 
+		    System.out.println("A");
 		    break;
-		  case 1:
+		  case 1: 
 		    System.out.println("B");
 		    break;
-		  case 2:
+		  case 2: 
 		    System.out.println("C");
 		    break;
-		  default:
+		  default: 
 		    System.out.println("D");
 		}//switch
+
 	}
 
 }

@@ -15,6 +15,9 @@ public class CharTest {
 		c = '\u0905';
 		System.out.println(c);
 		
+		c = '\u0c05';
+		System.out.println(c);
+		
 		c = '\u4eca';
 		System.out.println(c);
 	}

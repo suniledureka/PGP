@@ -2,10 +2,10 @@
 public class BooleanTest {
 
 	public static void main(String[] args) {
-		boolean result = false;
-		int x=100, y=20;
-		result = x > y;
+		boolean result=true;
+		int x=10, y=20;
+		
+		result = x>y;
 		System.out.println(result);
 	}
-
 }

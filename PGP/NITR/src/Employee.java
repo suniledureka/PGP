@@ -1,5 +1,5 @@
-public class Employee 
-{
+
+public class Employee {
 	int empno;
 	String name;
 	float sal;
@@ -32,5 +32,6 @@ public class Employee
 		emp.setDetails();
 		emp.getDetails();
 	}
+
 
 }
