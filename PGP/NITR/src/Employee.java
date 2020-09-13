@@ -12,6 +12,12 @@ public class Employee {
 	void getDetails(){
 		System.out.println(empno+" | "+name+" | "+sal);
 	}
+	
+	
+	@Override
+	public String toString() {
+		return "EMPNO=" + empno + "\nNAME=" + name + "\nSALARY=" + sal;
+	}
 
 	public static void main(String[] args) 
 	{
@@ -31,7 +37,8 @@ public class Employee {
 		//changing the state of object using method
 		emp.setDetails();
 		emp.getDetails();
+		System.out.println("-------------------------------------");
+		
+		System.out.println(emp); //toString() - objecttype@hashCode in hexadecimal form
 	}
-
-
 }
