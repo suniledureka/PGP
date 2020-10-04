@@ -1,12 +1,12 @@
 /*
-  Program to display a welcome message
-  Author : Sunil @ edureka
-  Date: 23rd August 2020
+ Program to display a welcome message
+ Author: Sunil@edureka
+ Date: 03rd October 2020
 */
-class Welcome
+public class Welcome
 {
-  public static void main(String[] args)
-  {
-    System.out.println("Welcome to Bigdata");
-  }
+ public static void main(String[] args)
+ {
+   System.out.println("Welcome to PGP Bigdata");
+ }
 }

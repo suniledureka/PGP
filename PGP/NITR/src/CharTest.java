@@ -7,7 +7,6 @@ public class CharTest {
 		
 		c = 65;
 		System.out.println(c);
-		System.out.println(Integer.toHexString(65));
 		
 		c = '\u0041';
 		System.out.println(c);
@@ -19,6 +18,9 @@ public class CharTest {
 		System.out.println(c);
 		
 		c = '\u4eca';
+		System.out.println(c);
+		
+		c = '\u0932';
 		System.out.println(c);
 	}
 }
